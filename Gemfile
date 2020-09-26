@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'devise', '~> 3.5.3'
+gem 'devise', '~> 4.7.1'
 gem 'cancancan'
 gem 'rolify'
 
