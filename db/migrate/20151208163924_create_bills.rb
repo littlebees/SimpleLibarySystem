@@ -1,4 +1,4 @@
-class CreateBills < ActiveRecord::Migration
+class CreateBills < ActiveRecord::Migration[5.0]
   def change
     create_table :bills do |t|
       t.belongs_to :user, index: true

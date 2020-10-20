@@ -1,29 +1,4 @@
 Rails.application.routes.draw do
-  resources :searches, only:[:show,:new,:create]
-
-  devise_for :users , :path => 'accounts'
-  resources :books do
-    member do
-        post :appoint
-        post :add_copy
-    end
-  end
-
-  resources :publishers
-  resources :authors
-  namespace :librarian do
-    resources :bills
-    resources :receipts
-  end
-  namespace :admin do
-    resources :users
-  end
-  resources :users do
-    resources :bills
-    resources :receipts
-  end 
-  root 'home#index'
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -78,4 +53,28 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  resources :searches, only:[:show,:new,:create]
+
+    devise_for :users , :path => 'accounts'
+  resources :books do
+     member do
+            post :appoint
+            post :add_copy
+        end
+    end
+
+    resources :publishers
+  resources :authors
+  namespace :librarian do
+      resources :bills
+      resources :receipts
+    end
+  namespace :admin do
+      resources :users
+    end
+  resources :users do
+      resources :bills
+      resources :receipts
+    end
+  root 'home#index'
 end

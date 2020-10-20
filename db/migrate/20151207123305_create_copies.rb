@@ -1,4 +1,4 @@
-class CreateCopies < ActiveRecord::Migration
+class CreateCopies < ActiveRecord::Migration[5.0]
   def change
     create_table :copies do |t|
       t.belongs_to :book, null:false
