@@ -1,4 +1,4 @@
-class Bill < ActiveRecord::Base
+class Bill < ApplicationRecord
   belongs_to :user
   belongs_to :copy
   INTERNAL = 10

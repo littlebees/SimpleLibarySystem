@@ -1,4 +1,4 @@
-class Book < ActiveRecord::Base
+class Book < ApplicationRecord
     has_many :copies, dependent: :destroy
     has_many :booksAuthors
     has_many :authors, through: :booksAuthors

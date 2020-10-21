@@ -1,4 +1,4 @@
-class Copy < ActiveRecord::Base
+class Copy < ApplicationRecord
     belongs_to :book
     has_one :receipt, ->{ where(:back_date => nil) }
     has_one :bill, ->{ where(:take_date => nil) }
