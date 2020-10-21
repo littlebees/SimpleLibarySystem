@@ -13,7 +13,7 @@ gem 'mysql2'
 gem 'puma'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.2.3'
+gem 'rails', "~> 6.0.3"
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
