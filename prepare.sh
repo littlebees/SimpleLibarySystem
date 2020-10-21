@@ -6,7 +6,7 @@ set -e
 echo "generating config/secrets.yml"
 cat << END > config/secrets.yml
 development:
-    secret_key_base: $(rake secret)
+    secret_key_base: "$(rake secret)"
 END
 echo "bundle install"
 bundle install
