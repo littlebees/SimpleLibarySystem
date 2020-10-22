@@ -8,6 +8,17 @@ Used gems
 2. Rolify
 3. CanCanCan
 
+## Roadmap to enhance this repo
+
+- [x] Upgrade to Rails6
+- [ ] Add Unit Test
+- [ ] Add Integration Test
+- [ ] Docker image
+- [ ] CI/CD
+- [ ] Log Monitoring
+- [ ] i18n
+- [ ] use Webpack
+
 ## How to use
 
 1. `sh prepare.sh`
