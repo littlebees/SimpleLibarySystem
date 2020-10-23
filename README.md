@@ -8,7 +8,7 @@ Used gems
 2. Rolify
 3. CanCanCan
 
-## Roadmap to enhance this repo
+## Roadmap to enhancing this repo
 
 - [x] Upgrade to Rails6
 - [ ] Add Unit Test
