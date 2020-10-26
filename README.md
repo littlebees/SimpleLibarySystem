@@ -13,7 +13,7 @@ Used gems
 - [x] Upgrade to Rails6
 - [ ] Add Unit Test
 - [ ] Add Integration Test
-- [ ] Docker image
+- [x] Docker image
 - [ ] CI/CD
 - [ ] Log Monitoring
 - [ ] i18n

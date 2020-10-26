@@ -13,8 +13,6 @@ gem 'mysql2'
 gem 'puma'
 
 # HERE DOCKER: tzinfo-data is not present. Please add gem 'tzinfo-data' to your Gemfile and run bundle install (TZInfo::DataSourceNotFound)
-gem "tzinfo-data"
-
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', "~> 6.0.3"
